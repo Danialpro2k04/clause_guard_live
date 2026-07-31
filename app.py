@@ -36,7 +36,7 @@ MAX_POLICY_FILES = 10
 COLLECTION_NAME = DEFAULT_COLLECTION_NAME
 GROQ_MODEL_NAME = "llama-3.1-8b-instant"
 EMBEDDING_MODEL_NAME = "sentence-transformers/all-MiniLM-L6-v2"
-GITHUB_REPO_URL = "https://github.com/Danialpro2k04/ClauseGuard"
+GITHUB_REPO_URL = "https://github.com/Danialpro2k04/clause_guard_live"
 
 RISK_ORDER = {"HIGH": 0, "MEDIUM": 1, "LOW": 2}
 
