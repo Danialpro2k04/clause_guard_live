@@ -866,7 +866,7 @@ def render_sidebar() -> None:
                     <div style="font-size:0.72rem;color:var(--text-muted);margin-top:1px;">MCP-native Compliance Review</div>
                 </div>
             </div>
-            <span class="cg-hero-badge">● Live · BYOK Demo</span>
+            <span class="cg-hero-badge">● Live </span>
         </div>
         """,
         unsafe_allow_html=True,
