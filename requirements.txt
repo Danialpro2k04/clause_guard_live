@@ -1,0 +1,12 @@
+# Top-level application dependencies
+groq
+qdrant-client
+sentence-transformers
+pypdf
+python-docx
+streamlit
+
+# Transitive compatibility bounds (Intel / Linux runtime safety)
+transformers<5.0.0
+torch==2.2.2
+numpy<2.0.0
