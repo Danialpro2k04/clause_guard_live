@@ -2,7 +2,7 @@
 
 **MCP-native, multi-agent contract compliance review — Bring Your Own Key (BYOK)**
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://clauseguardlive.streamlit.app/) *(Replace with your actual deployment link if applicable)*
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://clauseguardlive.streamlit.app/) 
 
 ClauseGuard is a live, session-isolated web application built with Streamlit that automates contract compliance reviews. By combining a multi-agent LLM pipeline with Retrieval-Augmented Generation (RAG), it evaluates draft contracts against your internal company policies and flags risky clauses for human review.
 
