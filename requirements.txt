@@ -2,6 +2,7 @@
 groq
 qdrant-client
 sentence-transformers
+langchain-text-splitters
 pypdf
 python-docx
 streamlit
