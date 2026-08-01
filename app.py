@@ -408,7 +408,15 @@ def render_sidebar() -> None:
         st.rerun()
 
     st.sidebar.markdown("---")
-    st.sidebar.caption(f"[View MCP server + Full archetecture implementation on GitHub]({GITHUB_REPO_URL})")
+    st.sidebar.markdown(
+    f'''
+    <a href="{GITHUB_REPO_URL}" target="_blank" style="text-decoration: none; color: inherit; font-size: 0.8em;">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="16" style="vertical-align: middle; margin-right: 5px; filter: invert(0.5);"/>
+        View MCP server + Full architecture
+    </a>
+    ''',
+    unsafe_allow_html=True
+)
 
 
 
