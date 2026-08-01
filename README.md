@@ -1,6 +1,6 @@
 # ⚖️ ClauseGuard Live
 
-**MCP-native, multi-agent contract compliance review — Bring Your Own Key (BYOK)**
+**Multi-agent contract compliance review — Bring Your Own Key (BYOK)**
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://clauseguardlive.streamlit.app/) 
 
