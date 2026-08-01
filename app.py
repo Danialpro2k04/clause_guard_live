@@ -366,10 +366,9 @@ def pill(text: str, color: str, bg: str) -> str:
 def render_sidebar() -> None:
     st.sidebar.markdown("### ⚖️ ClauseGuard")
     
-    # Updated Live text bug fix[cite: 1]
     st.sidebar.markdown(
         '<div style="font-weight: 600; color: #334155; margin-bottom: 1rem;">'
-        '<span style="color: #10B981; margin-right: 4px;">●</span> Live MCP-native Review'
+        '<span style="color: #09ed59; margin-right: 4px;">●</span> Live Review'
         '</div>', 
         unsafe_allow_html=True
     )
@@ -672,7 +671,6 @@ def render_card(record: dict[str, Any], reviewer: str) -> None:
                         unsafe_allow_html=True,
                     )
 
-        # Updated Card Fix: Utilizing default Streamlit styling components[cite: 1]
         st.markdown("**Clause Text**")
         st.info(record["clause_text"])
 
@@ -781,7 +779,7 @@ def main() -> None:
 
     st.title("⚖️ ClauseGuard")
     st.caption(
-        "MCP-native, multi-agent contract compliance review — bring your own Groq "
+        "Multi-agent contract compliance review — bring your own Groq "
         "key; your policies and findings never leave your session."
     )
 
@@ -792,7 +790,6 @@ def main() -> None:
         getattr(st, kind)(message)
         st.session_state.flash = None
 
-    # Replaced st.tabs with Wizard step logic[cite: 1]
     if st.session_state.current_step == 1:
         render_setup_step()
         st.divider()
