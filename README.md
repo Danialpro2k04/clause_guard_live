@@ -10,8 +10,8 @@ This repository hosts the **Live/Public Demo** version of the tool. It is design
 
 ## Why the live demo doesn't run through MCP
 
-This repo includes a full MCP (Model Context Protocol) server in
-`server/mcp_server.py`, but the hosted live demo doesn't call it. That's
+The real ClauseGurad repo includes a full MCP (Model Context Protocol) server in
+`server/mcp_server.py`, but this hosted live demo doesn't call it. That's
 intentional, not a shortcut.
 
 MCP servers communicate over local transport (stdio) with a client running
